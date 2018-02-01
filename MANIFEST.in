@@ -1,0 +1,8 @@
+recursive-include opensky *.py
+recursive-include tests *.py
+recursive-include opensky/goes_in_docker_image/*
+include *.md *.py *.txt *.yml .pylintrc tox.ini
+global-exclude *.pyc
+prune build
+prune dist
+prune integration_tests

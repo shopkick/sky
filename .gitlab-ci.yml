@@ -1,0 +1,36 @@
+before_script:
+    - rm -rf venv
+    - curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+    - /usr/bin/env python2.7 get-pip.py --user
+    - rm get-pip.py  # if we don't remove this tox's packaging step will get an error from check-manifest
+    - /usr/bin/env python2.7 -m pip install --user virtualenv
+    - /usr/bin/env python2.7 -m virtualenv venv
+    - venv/bin/pip install -e .
+
+stages:
+  - test
+  - lint
+
+pylint:
+  stage: lint
+  script:
+    - venv/bin/pip install pylint
+    - venv/bin/pylint opensky || true
+  tags:
+    - python
+
+flake8:
+  stage: lint
+  script:
+    - venv/bin/pip install flake8
+    - venv/bin/flake8 opensky || true
+  tags:
+    - python
+
+tox:
+  stage: test
+  script:
+    - venv/bin/pip install tox
+    - venv/bin/tox
+  tags:
+    - python
