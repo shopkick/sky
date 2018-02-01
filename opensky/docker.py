@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''
 Classes and functions for operating docker.
 '''

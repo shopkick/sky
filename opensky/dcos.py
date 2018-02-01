@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''
 Integration for DCOS.
 Responsible for transforming logical configurations into DCOS/Marathon API

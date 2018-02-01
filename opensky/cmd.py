@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''
 Uses argparse and gather to dispatch
 to the correct opensky plugins and internal functions.

@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 import sys
 import inspect
 import traceback

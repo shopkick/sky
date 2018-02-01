@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''
 Engine that actually executes the operation.
 '''

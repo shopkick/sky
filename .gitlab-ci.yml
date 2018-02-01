@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 before_script:
     - rm -rf venv
     - curl https://bootstrap.pypa.io/get-pip.py > get-pip.py

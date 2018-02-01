@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 # TODO
 
 * self build including all packages in the wheelhouse ends up including duplicates

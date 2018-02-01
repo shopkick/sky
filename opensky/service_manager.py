@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''
 Class and functions for managing processes / services for local development.
 '''

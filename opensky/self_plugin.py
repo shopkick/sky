@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 '''Plugin for building a new sky executable from an existing sky. Provides the ability to:
 
   * Add/remove plugins

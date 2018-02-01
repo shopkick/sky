@@ -1,3 +1,5 @@
+# Copyright (c) Shopkick 2017
+# See LICENSE for details.
 # Sky
 
 Sky enables developers to build modern Python applications and
